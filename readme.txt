@@ -90,3 +90,32 @@ but it doesn't catch /docs
 anyway if u want to show the same for /docs and any url that may be 404 not found
 
 you can use [[...slug]]
+
+------------------------------------------------------
+
+Not Found page
+
+app > not-found.tsx
+
+it will be used as custom 404 oage instead of the default one 
+
+
+for individual routes 
+like lets say 
+http://localhost:3000/products/:101 should be not found 
+then use notFound from next/navigation using manual conditions
+
+in next 14 you can take params as string
+
+from next 15 useParams hook is returned as promise
+
+so the type should be defined like 
+
+interface Props {
+  params: Promise<{
+    productid: string;
+  }>;
+}
+
+------------------------------------------------------
+
