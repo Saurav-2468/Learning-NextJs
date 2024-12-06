@@ -73,3 +73,20 @@ http://localhost:3000/products/:id/review/:id
 
 same structure implemented as dynamic routes
 
+------------------------------------------------------
+
+Catch-all Segements
+
+http://localhost:3000/docs/f1/c1/r1
+
+instead of making multiple files
+
+you can make folder structure like docs > [...slug]
+
+the ...slug will catch all the segments that has /docs/:id1/:id2/.... in url
+but it doesn't catch /docs 
+
+
+anyway if u want to show the same for /docs and any url that may be 404 not found
+
+you can use [[...slug]]
