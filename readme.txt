@@ -39,3 +39,18 @@ http://localhost:3000/blog/second
 make blog inside app.tsx
 make second folder inside blog folder and define page.tsx
 
+Dynamic routes
+
+http://localhost:3000/products/:id 
+
+
+- make folder structure like products > [productid]
+[productid] will be Dynamic
+
+if you want params in server side every component recieves params as Props
+ 
+but the params recieved directly in the props comes as promise
+
+
+useParams() should be in client side Rendering
+
