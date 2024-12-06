@@ -31,3 +31,11 @@ Routing Conventions
 -Every folder corresponds to a path segment in the browser URL
 
 File Based Routing
+
+
+Nested routes
+http://localhost:3000/blog/second
+
+make blog inside app.tsx
+make second folder inside blog folder and define page.tsx
+
