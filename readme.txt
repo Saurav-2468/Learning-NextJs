@@ -8,19 +8,23 @@ Why Next.js?
 -Dev and prod build system
 -SEO
 
+------------------------------------------------------
+
+
 React Server Components
 -Server Components
 default
 reading files
 Fetching Data
 
-
+------------------------------------------------------
 
 
 -Client Components
 "use client" at top
 ability to use hooks and manage interactions
 
+------------------------------------------------------
 
 Routing
 
@@ -30,7 +34,12 @@ Routing Conventions
 -Every file that corresponds to a route must be named page.js or page.tsx
 -Every folder corresponds to a path segment in the browser URL
 
+
+------------------------------------------------------
+
 File Based Routing
+
+
 
 
 Nested routes
@@ -38,6 +47,8 @@ http://localhost:3000/blog/second
 
 make blog inside app.tsx
 make second folder inside blog folder and define page.tsx
+
+------------------------------------------------------
 
 Dynamic routes
 
@@ -53,4 +64,12 @@ but the params recieved directly in the props comes as promise
 
 
 useParams() should be in client side Rendering
+
+------------------------------------------------------
+
+Nested Dynamic routes
+
+http://localhost:3000/products/:id/review/:id
+
+same structure implemented as dynamic routes
 

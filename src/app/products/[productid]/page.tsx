@@ -8,10 +8,11 @@ interface Props {
 }
 
 const ProductDetails = async ({ params }: Props) => {
-  let paramsResolved = await params;
+  let { productid } = await params;
   return (
     <div>
-      <h1>Details about product : {paramsResolved.productid}</h1>
+      <h1>Details about product : {productid}</h1>
+      <Link href={`/products/${productid}/review/${productid}`}>Review</Link> <br></br>
       <Link href="/products">Back</Link>
     </div>
   );
