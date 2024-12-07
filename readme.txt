@@ -119,3 +119,14 @@ interface Props {
 
 ------------------------------------------------------
 
+File Colocation
+
+Private folder
+
+- shouldnot considered by routing system
+- prefix the name by _
+
+- seaparte ui logic from routing logic
+- organizing internal files
+- sorting and grouping files in code editors
+- avoiding potential naming conflicts with future Conventions
