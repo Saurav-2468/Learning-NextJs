@@ -130,3 +130,22 @@ Private folder
 - organizing internal files
 - sorting and grouping files in code editors
 - avoiding potential naming conflicts with future Conventions
+
+so if you want to lets say have a url
+http://localhost:3000/_products
+
+this don't make _products as it will be private folder
+
+instead use "%5F" as prefix (like %5Fproducts)
+which is URL encoded form of _
+
+------------------------------------------------------
+
+
+Route Groups
+
+- Allows us to logically group our routes and project files without affecting URL path structure
+
+- to group a lets say multiple components like register , login into auth section
+
+use (auth) as folder to group the routes
