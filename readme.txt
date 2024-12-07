@@ -149,3 +149,11 @@ Route Groups
 - to group a lets say multiple components like register , login into auth section
 
 use (auth) as folder to group the routes
+
+
+------------------------------------------------------
+
+
+Layouts
+
+you can create a layout component by default exporting layout.tsx
