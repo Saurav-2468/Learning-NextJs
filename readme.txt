@@ -157,3 +157,9 @@ use (auth) as folder to group the routes
 Layouts
 
 you can create a layout component by default exporting layout.tsx
+
+------------------------------------------------------
+
+
+Routing Metadata
+
