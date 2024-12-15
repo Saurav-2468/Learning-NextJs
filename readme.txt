@@ -191,7 +191,16 @@ then use router.replace("/")
 also router.back() will let us redirect to previous path in history stack
 
 ------------------------------------------------------
+
 Templates
 
+Templates are similar to layout in that they wrap each child or page
 
+but templated can be shared between routes
+
+but they don't carry state like Layouts
+
+------------------------------------------------------
+
+Loading.tsx
 
