@@ -172,3 +172,24 @@ export a dynamic generateMetadata function
 
 Link Based navigation
 
+Link from next/link 
+
+{usePathname} from next/navigation gives pathname like /register
+
+------------------------------------------------------
+
+Navigating Programmatically
+
+useRouter hook from next/navigation
+
+then router.push("/")
+
+if u want to replace the history instead of pushing onto the stack
+
+then use router.replace("/")
+
+also router.back() will let us redirect to previous path in history stack
+
+------------------------------------------------------
+
+
