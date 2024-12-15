@@ -191,5 +191,7 @@ then use router.replace("/")
 also router.back() will let us redirect to previous path in history stack
 
 ------------------------------------------------------
+Templates
+
 
 
