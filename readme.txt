@@ -163,3 +163,12 @@ you can create a layout component by default exporting layout.tsx
 
 Routing Metadata
 
+export a static Metadata object
+
+export a dynamic generateMetadata function
+
+
+------------------------------------------------------
+
+Link Based navigation
+
